@@ -97,7 +97,7 @@
         End Select
 
         MessageBox.Show("Your Fitzpatrick Skin Type is: " + fitzType & Environment.NewLine +
-                        "Click OK to save")
+                        "Click OK to Save")
 
 
         UVDose.lblSkinType.Text = "Your Fitzpatrick Skin Type is: " + fitzType
