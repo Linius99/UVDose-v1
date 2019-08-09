@@ -12,7 +12,8 @@
             btnTakeQuiz.Enabled = True
             lblSkinType.Visible = False
             lblSkinType.Text = ""
-        Else btnTakeQuiz.Enabled = False
+        Else
+            btnTakeQuiz.Enabled = False
             lblSkinType.Visible = True
             lblSkinType.Text = "Your Fitzpatrick Skin Type is: " + cmbSkinType.SelectedItem
         End If

@@ -103,6 +103,7 @@
         UVDose.lblSkinType.Text = "Your Fitzpatrick Skin Type is: " + fitzType
         UVDose.lblSkinType.Visible = True
         UVDose.cmbSkinType.Enabled = False
+        UVDose.cmbSkinType.Text = fitzType
 
         Me.Close()
     End Sub
